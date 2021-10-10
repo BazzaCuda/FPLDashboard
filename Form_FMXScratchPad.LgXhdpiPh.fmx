@@ -1,0 +1,10 @@
+inherited FormFMXScratchPad_LgXhdpiPh: TFormFMXScratchPad_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 0
+  inherited Memo: TMemo
+    Size.Height = 695.000000000000000000
+    Viewport.Width = 641.000000000000000000
+    Viewport.Height = 695.000000000000000000
+  end
+end

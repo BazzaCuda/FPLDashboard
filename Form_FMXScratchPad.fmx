@@ -1,0 +1,37 @@
+object FormFMXScratchPad: TFormFMXScratchPad
+  Left = 0
+  Top = 0
+  Caption = 'FPL Dashboard (FMX)'
+  ClientHeight = 674
+  ClientWidth = 1026
+  Position = ScreenCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnActivate = FormActivate
+  OnMouseMove = FormMouseMove
+  DesignerMasterStyle = 3
+  object Memo: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    StyledSettings = [Family, Style, FontColor]
+    TextSettings.Font.Size = 14.000000000000000000
+    Align = Left
+    Size.Width = 641.000000000000000000
+    Size.Height = 674.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Viewport.Width = 633.000000000000000000
+    Viewport.Height = 666.000000000000000000
+  end
+  object Image: TImage
+    MultiResBitmap = <
+      item
+      end>
+    Position.X = 720.000000000000000000
+    Position.Y = 88.000000000000000000
+    Size.Width = 233.000000000000000000
+    Size.Height = 289.000000000000000000
+    Size.PlatformDefault = False
+  end
+end
